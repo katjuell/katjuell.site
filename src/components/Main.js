@@ -53,7 +53,7 @@ class Main extends React.Component {
             <img src="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/open_book.jpg" alt="" />
           </span>
           <p>You can find my technical tutorials <a href="https://www.digitalocean.com/community/users/katjuell">here</a>.</p>
-          <p>I was also a core contributor to <a href="https://digitalocean.com">DigitalOcean's</a><a href="https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developersKubernetes"> Kubernetes Curriculum</a>.</p>
+          <p>I was also a core contributor to <a href="https://digitalocean.com">DigitalOcean's</a><a href="https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers"> Kubernetes Curriculum</a>.</p>
           <p>I will be talking about that curriculum and my internal Kubernetes work on <a href="https://www.digitalocean.com/community">DigitalOcean Community</a> at <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/">KubeCon</a> in March 2020.</p>
           <p>My public-facing code lives on <a href="https://github.com/katjuell">GitHub</a>.</p>
           <p>You can also check out my talk from <a href="https://www.writethedocs.org/conf/portland/2019/">Write the Docs 2019</a><a href="https://www.writethedocs.org/videos/portland/2019/writer-editor-teacher-kathleen-juell/"> here</a>.</p>

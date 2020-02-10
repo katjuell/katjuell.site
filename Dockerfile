@@ -12,6 +12,6 @@ COPY . ./
 
 RUN npm run build
 
-EXPOSE 8000
+EXPOSE 9000
 
-ENTRYPOINT ["npm", "run", "serve"]
+ENTRYPOINT ["gatsby", "serve", "-H", "0.0.0.0"]

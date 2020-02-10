@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  gatsby:
+    image: katjuell/gatsby
+    container_name: gatsby
+    volumes: 
+      - web-root:/app/public
+
+  webserver:
+    image: nginx:1.17.8-alpine
+    container_name: webserver
+    ports:
+      - "80:80"
+    volumes:
+      - web-root:/var/www/html
+      - ./nginx-conf:/etc/nginx/conf.d
+    depends_on:
+      - gatsby
+
+volumes:
+  web-root:
