@@ -12,11 +12,32 @@ services:
     container_name: webserver
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - web-root:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
+      - certbot-etc:/etc/letsencrypt
+      - dhparam:/etc/ssl/certs
     depends_on:
       - gatsby
 
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - web-root:/var/www/html
+    depends_on:
+      - webserver
+    command: certonly --webroot --webroot-path=/var/www/html --email kathleenjuell@gmail.com --agree-tos --no-eff-email --force-renewal -d katjuell.site  -d www.katjuell.site 
+
 volumes:
+  certbot-etc:
   web-root:
+  dhparam:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/mrcat/gatsby-blog/dhparam/
+      o: bind
+
