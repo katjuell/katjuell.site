@@ -30,7 +30,7 @@ class Main extends React.Component {
             <img src="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/computer_coffee.jpg" alt="" />
           </span>
           <p>
-            I think about languages, written and typed. I also make things and support others as they seek to do the same. 
+            Languages are the tool we use to make worlds. As an academic, I wrote about that fact; as a developer, I use it. 
           </p>
           <p>
             "[Coding] is ourselves writing, before the infinite play of the world (the world as function) is traversed, intersected,
