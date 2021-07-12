@@ -27,16 +27,16 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/computer_coffee.jpg" alt="" />
+            <img src="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/computer_coffee.jpg" alt="office" />
           </span>
           <p>
-            Languages are the tool we use to make worlds. As an academic, I wrote about that fact; as a developer, I use it. 
+            Languages make worlds. As an academic, I wrote about that fact; as a developer, I use it. 
           </p>
           <p>
-            "[Coding] is ourselves writing, before the infinite play of the world (the world as function) is traversed, intersected,
+            "[Coding] is ourselves writing, before the infinite play of the world [...] is traversed, intersected,
             stopped, plasticized, by some singular system [...] which reduces the pluraity of entrances, the
             opening of networks, the infinity of languages."
-            - Roland Barthes, S/Z, (my addition)
+            - Roland Barthes, S/Z
           </p>
           {close}
         </article>
@@ -50,13 +50,13 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/open_book.jpg" alt="" />
+            <img src="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/open_book.jpg" alt="book" />
           </span>
+          <p>Some places where my work as a developer lives: <a href="https://www.digitalocean.com">DigitalOcean</a>,  <a href="https://www.digitalocean.com/community">DigitalOcean's Community</a>,  <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.</p>
+          <p>Talks that I have given include: <a href="https://www.youtube.com/watch?v=xXXM7av2W_g&list=PLkA60AVN3hh_YpK8t2ASZZJAEkz8fX2wj&index=5">DockerCon 2020</a>,  <a href="https://www.youtube.com/watch?v=1sfoYf3TbQk">KubeCon EU 2020</a>,
+            <a href="https://www.youtube.com/watch?v=JDrb-meCtHQ"> Write the Docs 2019</a>.</p>
           <p>You can find my technical tutorials <a href="https://www.digitalocean.com/community/users/katjuell">here</a>.</p>
-          <p>I was also a core contributor to <a href="https://digitalocean.com">DigitalOcean's</a><a href="https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers"> Kubernetes Curriculum</a>.</p>
-          <p>I will be talking about that curriculum and my internal Kubernetes work on <a href="https://www.digitalocean.com/community">DigitalOcean Community</a> at <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/">KubeCon</a> in March 2020.</p>
           <p>My public-facing code lives on <a href="https://github.com/katjuell">GitHub</a>.</p>
-          <p>You can also check out my talk from <a href="https://www.writethedocs.org/conf/portland/2019/">Write the Docs 2019</a><a href="https://www.writethedocs.org/videos/portland/2019/writer-editor-teacher-kathleen-juell/"> here</a>.</p>
           {close}
         </article>
 
@@ -69,12 +69,11 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/Profile.jpg" alt="" />
+            <img src="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/Profile.jpg" alt="kathleen juell profile" />
           </span>
-          <p>I have a Ph.D. in American Literature and work in tech as a developer and community educator.</p> 
-          <p>Things I work with regularly: Kubernetes, Docker, Concourse CI, Ruby, Rails, Node.js, Git, JavaScript, Redis, PostgreSQL.</p>
-          <p> Things I work on professionally: <a href="https://www.digitalocean.com/community">DigitalOcean Community</a>.</p>
-          <p>If you are interested in my scholarly work, you can find a representative example <a href="https://katjuell-site.nyc3.cdn.digitaloceanspaces.com/HowardArticle.pdf">here</a>.</p>
+          <p>I have a Ph.D. in American Literature and work in tech as a full-stack developer.</p> 
+          <p>Things I work with regularly: JavaScript, Node.js, Next.js, Kubernetes, Docker, Concourse CI, Ruby, Rails, Git, Redis, PostgreSQL.</p>
+          <p>If you are interested in my scholarly work, you can find a representative example <a href="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/HowardArticle.pdf">here</a>.</p>
           {close}
         </article>
 
