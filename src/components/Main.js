@@ -30,13 +30,13 @@ class Main extends React.Component {
             <img src="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/computer_coffee.jpg" alt="office" />
           </span>
           <p>
-            Languages are the tool we use to make worlds. As an academic, I wrote about that fact; as a developer, I use it. 
+            Languages make worlds. As an academic, I wrote about that fact; as a developer, I use it. 
           </p>
           <p>
-            "[Coding] is ourselves writing, before the infinite play of the world (the world as function) is traversed, intersected,
+            "[Coding] is ourselves writing, before the infinite play of the world [...] is traversed, intersected,
             stopped, plasticized, by some singular system [...] which reduces the pluraity of entrances, the
             opening of networks, the infinity of languages."
-            - Roland Barthes, S/Z, (my addition)
+            - Roland Barthes, S/Z
           </p>
           {close}
         </article>
@@ -52,9 +52,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src="https://katjuellsite.nyc3.cdn.digitaloceanspaces.com/open_book.jpg" alt="book" />
           </span>
-          <p>Some places where my work as a developer lives: <a href="https://www.digitalocean.com">DigitalOcean</a>, <a href="https://www.digitalocean.com/community">DigitalOcean's Community</a>, <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.</p>
-          <p>Talks that I have given include: <a href="https://www.youtube.com/watch?v=xXXM7av2W_g&list=PLkA60AVN3hh_YpK8t2ASZZJAEkz8fX2wj&index=5">DockerCon 2020</a>, <a href="https://www.youtube.com/watch?v=1sfoYf3TbQk">KubeCon EU 2020</a>,
-            <a href="https://www.youtube.com/watch?v=JDrb-meCtHQ">Write the Docs 2019</a>.</p>
+          <p>Some places where my work as a developer lives: <a href="https://www.digitalocean.com">DigitalOcean</a>,  <a href="https://www.digitalocean.com/community">DigitalOcean's Community</a>,  <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.</p>
+          <p>Talks that I have given include: <a href="https://www.youtube.com/watch?v=xXXM7av2W_g&list=PLkA60AVN3hh_YpK8t2ASZZJAEkz8fX2wj&index=5">DockerCon 2020</a>,  <a href="https://www.youtube.com/watch?v=1sfoYf3TbQk">KubeCon EU 2020</a>,
+            <a href="https://www.youtube.com/watch?v=JDrb-meCtHQ"> Write the Docs 2019</a>.</p>
           <p>You can find my technical tutorials <a href="https://www.digitalocean.com/community/users/katjuell">here</a>.</p>
           <p>My public-facing code lives on <a href="https://github.com/katjuell">GitHub</a>.</p>
           {close}
