@@ -38,6 +38,6 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/mrcat/gatsby-blog/dhparam/
+      device: /home/sammy/gatsby-blog/dhparam/
       o: bind
 
